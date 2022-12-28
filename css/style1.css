@@ -1,0 +1,52 @@
+body {
+    background-image: url("/photos/pexels-karolina-grabowska-4210787.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.dark-mode{
+    background-image: url("/photos/wallpaperflare.com_wallpaper\ \(15\).jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    color:azure;
+}
+.container-fluid {
+border: medium transparent solid ;
+font-size: 25px;
+text-align:center;
+font-family: "Barrio";
+color:darkred;
+}
+.container {
+font-family: "pacifico";
+height:170px;
+border: thin ridge gold ;
+}
+.blockquote {
+    font-size: 30px;
+}
+ .source,.citation,.year {
+   font-size: 25px;;
+  text-align: right;
+  font-family:"Blubber one";
+  font-style: italic;
+}
+#loadQuote {
+    margin-left: 40%;
+    margin-top:50px;
+    position: fixed;
+}
+#darkMode {
+  margin-left: 56%;
+  margin-top:55px;
+  position: fixed;
+}
+.blockquote:before {
+    content: '';
+  }
+  .blockquote:after {
+    content: '';
+    position: absolute;
+  }
+  
