@@ -181,13 +181,13 @@ function getRandomQuote () {
 	return randomQuote;
 }
 //Fucntion to get random rgb quote colour value	
-function getRandomColor () {
-	var red = Math.floor(Math.random() * 256 );
-	var green = Math.floor(Math.random() * 256 );
-	var blue = Math.floor(Math.random() * 256 );
-	 var randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
-	return randomColor;
-}
+// function getRandomColor () {
+// 	var red = Math.floor(Math.random() * 256 );
+// 	var green = Math.floor(Math.random() * 256 );
+// 	var blue = Math.floor(Math.random() * 256 );
+// 	 var randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+// 	return randomColor;
+// }
 
 //Function to call the getRandomQuote function and stores the returned quote object in a variable
 //Constructs a string containing the different properties of the quote object 
@@ -201,7 +201,7 @@ function printQuote () {
 					quoteContainer.innerHTML = quoteString;
 
 					//assigns random color value to document text color 
-					document.getElementsByClassName("container").innerHTML.style.color = getRandomColor ();				
+					// document.getElementByClassName("container").style.color = getRandomColor();				
 }
 //dark mode function
 function darkMode() {

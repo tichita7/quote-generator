@@ -1,11 +1,11 @@
 body {
-    background-image: url("./photos/pexels-karolina-grabowska-4210787.jpg");
+    background-image: url("../photos/pexels-karolina-grabowska-4210787.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
 }
 .dark-mode{
-    background-image: url("./photos/wallpaperflare.com_wallpaper\ \(15\).jpg");
+    background-image: url("../photos/wallpaperflare.com_wallpaper\ \(15\).jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
